@@ -1,0 +1,20 @@
+:root { 
+    --bg: #0f0f0f;
+    --text: #fff;
+    --accent: #ff0000;
+    --card: #272727;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
